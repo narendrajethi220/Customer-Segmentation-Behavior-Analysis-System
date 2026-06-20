@@ -10,3 +10,38 @@ The objective is to:
 - Understand customer behaviour patterns
 - Compare clustering techniques
 - Visualize customer relationships using dimensionality reduction   
+
+Pipeline:
+    Raw Data
+
+        |
+    
+    Drop CustomerID
+
+        |
+
+    Encode Gender
+
+        |
+
+    Scale Features
+
+        |
+
+      PCA
+
+       |
+
+     KMeans
+
+       |
+
+     DBSCAN
+
+       |
+
+   Hierarchical
+
+       |
+
+    Compare
